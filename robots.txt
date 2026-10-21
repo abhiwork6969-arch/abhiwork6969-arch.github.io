@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abhiwork6969-arch.github.io/sitemap.xml

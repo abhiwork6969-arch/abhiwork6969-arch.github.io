@@ -199,3 +199,6 @@ html[data-theme="white"] .name-holo__layer--front,html[data-theme="black"] .name
 .about-copy .supporting-note{margin-top:3px!important}
 .hero-copy .name-holo{justify-self:start;justify-items:start;margin-left:0;margin-right:auto;text-align:left}
 
+/* Keep the orb theme switch tappable when the surrounding artwork is decorative on mobile. */
+@media(max-width:760px){.hero-art .theme-switch{pointer-events:auto;touch-action:manipulation}}
+

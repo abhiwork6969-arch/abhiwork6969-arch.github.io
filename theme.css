@@ -201,4 +201,4 @@ html[data-theme="white"] .name-holo__layer--front,html[data-theme="black"] .name
 
 /* Keep the mobile theme orb above the copy and fully inside the screen for reliable taps. */
 @media(max-width:760px){.hero-art{z-index:2}.hero-art .theme-switch{pointer-events:auto;touch-action:manipulation}}
-@media(max-width:520px){.hero-art{right:-72px}}
+@media(max-width:520px){.hero-art{right:-135px}}

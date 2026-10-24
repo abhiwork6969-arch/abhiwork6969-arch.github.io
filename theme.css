@@ -199,6 +199,6 @@ html[data-theme="white"] .name-holo__layer--front,html[data-theme="black"] .name
 .about-copy .supporting-note{margin-top:3px!important}
 .hero-copy .name-holo{justify-self:start;justify-items:start;margin-left:0;margin-right:auto;text-align:left}
 
-/* Keep the mobile theme orb above the copy and fully inside the screen for reliable taps. */
-@media(max-width:760px){.hero-art{z-index:2}.hero-art .theme-switch{pointer-events:auto;touch-action:manipulation}}
-@media(max-width:520px){.hero-art{right:-135px}}
+/* On compact screens, give the theme artwork its own row below the hero copy. */
+@media(max-width:760px){.hero-art{position:relative;inset:auto;top:auto;right:auto;z-index:auto;width:100%;height:270px;margin:0;opacity:.72;display:grid;place-items:center end;pointer-events:none}.hero-art .theme-switch{pointer-events:auto;touch-action:manipulation}.hero-art .orbit-one{width:250px}.hero-art .orbit-two{width:194px}.hero-art .orbit-three{width:320px;height:160px}}
+@media(max-width:520px){.hero-art{height:230px;margin-top:-8px;opacity:.68}.hero-art .orbit-one{width:210px}.hero-art .orbit-two{width:166px}.hero-art .orbit-three{width:270px;height:136px}}
